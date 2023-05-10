@@ -12,6 +12,13 @@
                         <div class="col-md-5">
                         <div style="height:70px"></div>
                         <address>
+                        <style>
+                          .avatar {
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
+                }
+                    </style>
                                 <p class="font-weight-bold" style="font-size: large;"> Description de l'Entreprise</p>
                                 <br><br>
                                 <p style="font-size: large;">    <img src="{{ asset('storage/photoslogo/' . $offre->user->logo_entreprise) }}" alt="Logo Entreprise" class="avatar">

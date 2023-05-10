@@ -2,8 +2,8 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row" style="background-color: #242d5e;">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center" style="background-color: #242d5e;">
-        <a class="navbar-brand brand-logo" href="{{('tableaudebord')}}"><img src="{{asset('assets/img/logo/jobbenin.png')}}" style="height:50%;" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="{{('tableaudebord')}}"><img src="images/logo-mini.svg" alt="logo"/></a>
+        <a class="navbar-brand brand-logo" href="/"><img src="{{asset('assets/img/logo/jobbenin.png')}}" style="height:50%;" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="/"><img src="images/logo-mini.svg" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -46,7 +46,7 @@
       
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="{{('/tableaudebord')}}">
+            <a class="nav-link" href="{{('/')}}">
               <i class="icon-box menu-icon"></i>
               <span class="menu-title">Tableau de bord</span>
             </a>

@@ -35,7 +35,7 @@
                                         Description
                                     </p>
                                     <p>
-                                        {{ $freelancers->description_recruteur }}
+                                        {{ $freelancers->description_free }}
                                     </p>
                                 </div>
                             </div>
