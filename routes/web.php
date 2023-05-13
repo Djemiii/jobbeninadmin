@@ -46,6 +46,8 @@ Route::get('/transaction', function () {
   return view('Admin/transaction');
 });
 
+Route::get('/offre/{id}', 'App\Http\Controllers\OffreController@show')->name('detail_offre');
+
 
 Route::get('recruteur ', 'App\Http\Controllers\Admin1Controller@recruteur')->name('recruteur');
 Route::get('postulant ', 'App\Http\Controllers\Admin1Controller@postulant')->name('postulant');
